@@ -1,0 +1,193 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #121212; /* Dark background */
+    color: #ddd; /* Light text color for contrast */
+}
+
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Header & Navigation Bar */
+header {
+    background-color: #000; /* Black background for navigation */
+    color: #fff;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: #fff;
+    text-decoration: none;
+    font-size: 18px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+}
+
+/* Section Styling */
+.section {
+    padding: 50px 0;
+    background-size: cover;
+    background-position: center;
+    color: #fff; /* Light text on dark backgrounds */
+}
+
+#home {
+    background-color: #000; /* Black background for home section */
+    background-image: url('https://images.unsplash.com/photo-1560250529-e65d76cf3c38?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg2OXwwfDF8c2VhcmNofDJ8fGVsZWN0cmljJTIwY2FyfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080');
+    background-blend-mode: darken; /* Darkens the background image */
+}
+
+#cars {
+    background-color: #222; /* Dark grey background for the cars section */
+    background-image: url('https://images.unsplash.com/photo-1603052876347-e5d6b6fd2e32?crop=entropy&cs=tinysrgb&fit=max&ixid=MXwyMDg2OXwwfDF8c2VhcmNofDJ8fGVsZWN0cmljJTIwY2FyfGVufDB8fHx8&ixlib=rb-1.2.1&q=80&w=1080');
+    background-blend-mode: darken;
+}
+
+#pricing {
+    background-color: #1c1c1c; /* Dark grey background for pricing section */
+    color: white;
+}
+
+#contact {
+    background-color: #333; /* Dark background for contact section */
+    color: white;
+}
+
+/* Car Image Styling */
+.hero-image {
+    width: 100%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    opacity: 0.7;
+}
+
+/* Text and Bio Styling */
+.bio {
+    background-color: rgba(0, 0, 0, 0.7); /* Darker overlay for bio section */
+    padding: 20px;
+    margin-top: 20px;
+    border-radius: 8px;
+}
+
+.bio h2 {
+    font-size: 24px;
+    color: #fff;
+}
+
+.bio p {
+    color: #ddd;
+}
+
+/* Car Gallery */
+.car-gallery {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 30px;
+}
+
+.car-item {
+    background-color: rgba(0, 0, 0, 0.6); /* Dark background for each car item */
+    padding: 20px;
+    border-radius: 8px;
+    color: #fff;
+    width: 23%;
+    box-sizing: border-box;
+    text-align: center;
+}
+
+.car-item img {
+    width: 100%;
+    height: auto;
+    border-radius: 8px;
+}
+
+.car-item h3 {
+    margin-top: 15px;
+    font-size: 20px;
+}
+
+.car-item p {
+    margin-top: 10px;
+}
+
+/* Pricing Table */
+.pricing-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 20px;
+}
+
+.pricing-table th, .pricing-table td {
+    padding: 10px;
+    text-align: center;
+    border: 1px solid #444;
+}
+
+.pricing-table th {
+    background-color: #444;
+}
+
+.pricing-table tr:nth-child(even) {
+    background-color: #333;
+}
+
+/* Contact Form Styling */
+#contact-form label {
+    display: block;
+    margin: 10px 0 5px;
+    color: #fff;
+}
+
+#contact-form input,
+#contact-form textarea {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #444;
+    border-radius: 4px;
+    background-color: #222;
+    color: #fff;
+}
+
+#contact-form button {
+    padding: 10px 15px;
+    background-color: #444;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+#contact-form button:hover {
+    background-color: #555;
+}
+
+/* Footer */
+footer {
+    background-color: #000; /* Black footer */
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+}
+
+footer p {
+    margin: 0;
+}
